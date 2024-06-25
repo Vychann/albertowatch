@@ -7,9 +7,11 @@ import ProductDetail from './components/ProductDetail';
 import ProductList from './components/ProductList';
 import ProductPage from './pages/ProductPage';
 import Home from './pages/Home';
+import Clocks from './Clocks';
 const App = () => {
   return (
     <div className='App'> 
+    <Clocks/>
       <Header/>
       <Routes>
         <Route path="/" exact component={Home} />
